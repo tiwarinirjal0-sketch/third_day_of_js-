@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body,main{
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.firstportion{
+    
+    width: 100%;
+    height: 20%;
+  
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+
+}
+
+.secondportion{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center
+}
+
+.boxcontainer{
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.boxes{
+
+    width: 100px;
+    height: 100px;
+    background-color: rgb(14, 255, 255);
+    margin: 5px;
+    border: solid black;
+    border-width: 1px;
+
+}
+
+#box2{
+    background-color: rgb(223, 113, 40);
+
+}
+
+#box3{
+    background-color: rgb(58, 233, 102);
+}
+
+#box4{
+    background-color: greenyellow;
+}
+.singlecontainer{
+    display: flex;
+    justify-content:center ;
+}
+#box5{
+    margin-top: 5px;
+    background-color: coral;
+}
